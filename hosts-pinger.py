@@ -28,6 +28,7 @@ if len(ping_lists) == 0:
 
 elif len(ping_lists) == 1:
     print('Ready to call extractor')
+    file_json = (ping_lists[0])
 
 else:
     n = 1
